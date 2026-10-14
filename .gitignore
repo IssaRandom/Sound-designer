@@ -1,0 +1,7 @@
+# downloaded and generated audio: rebuild with fetch_cc0.py / gen_*.py / build_mix.py
+sfx-library/
+projects/*/custom/
+projects/*/out/
+*.mov
+*.mp4
+__pycache__/

@@ -1,0 +1,25 @@
+Synthesised sounds (synth: cues, and files with licence "original"): made for this reel, no licence needed.
+
+hit_hook.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+fog_push.wav: CC0 1.0 (derived) — Tim Verberne (https://freesound.org/people/Tim_Verberne/sounds/482167/); Felix Blume (https://freesound.org/people/felix.blume/sounds/217506/) — reshaped from Noisekun CC0 recordings
+drone_air.wav: CC0 1.0 (derived) — Felix Blume (https://freesound.org/people/felix.blume/sounds/217506/) — reshaped from Noisekun CC0 recordings
+body_hook.wav: original — synthesised for this reel — gen_custom.py
+suck_reveal.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+groan.wav: CC0 1.0 (derived) — Falcet (https://freesound.org/people/Falcet/sounds/439365/) — reshaped from Noisekun CC0 recordings
+station_room.wav: CC0 1.0 (derived) — George Dyer (https://freesound.org/people/georgedyer/sounds/171552/); Felix Blume (https://freesound.org/people/felix.blume/sounds/217506/) — reshaped from Noisekun CC0 recordings
+hit_reveal.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+crackle0.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+tube.wav: original — synthesised for this reel — gen_v2.py
+body_reveal.wav: original — synthesised for this reel — gen_custom.py
+crackle1.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+crackle2.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+crackle3.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+suck_flash.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+arc0.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+hit_flash.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+crackle4.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+arc1.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+suck_end.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+screech.wav: CC0 1.0 (derived) — Felix Blume (https://freesound.org/people/felix.blume/sounds/217506/) — reshaped from Noisekun CC0 recordings
+hit_end.wav: CC0 1.0 (derived) — Borys Kozielski (https://freesound.org/people/Borys_Kozielski/sounds/316831/) — reshaped from Noisekun CC0 recordings
+body_end.wav: original — synthesised for this reel — gen_custom.py
