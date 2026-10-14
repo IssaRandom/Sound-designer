@@ -1,0 +1,195 @@
+{
+  "video": "/home/claude/work/reel.mov",
+  "duration": 7.063,
+  "fps": 60.0,
+  "size": [
+    1206,
+    2622
+  ],
+  "has_camera_audio": true,
+  "cuts": [
+    2.01667,
+    3.31833,
+    4.185,
+    4.785,
+    5.61833,
+    6.85167
+  ],
+  "shots": [
+    {
+      "shot": 0,
+      "start": 0.0,
+      "end": 2.017,
+      "len": 2.017,
+      "frame": "/home/claude/t/frames/shot_00.jpg",
+      "camera_audio_db": -24.6
+    },
+    {
+      "shot": 1,
+      "start": 2.017,
+      "end": 3.318,
+      "len": 1.302,
+      "frame": "/home/claude/t/frames/shot_01.jpg",
+      "camera_audio_db": -19.4
+    },
+    {
+      "shot": 2,
+      "start": 3.318,
+      "end": 4.185,
+      "len": 0.867,
+      "frame": "/home/claude/t/frames/shot_02.jpg",
+      "camera_audio_db": -19.0
+    },
+    {
+      "shot": 3,
+      "start": 4.185,
+      "end": 4.785,
+      "len": 0.6,
+      "frame": "/home/claude/t/frames/shot_03.jpg",
+      "camera_audio_db": -17.0
+    },
+    {
+      "shot": 4,
+      "start": 4.785,
+      "end": 5.618,
+      "len": 0.833,
+      "frame": "/home/claude/t/frames/shot_04.jpg",
+      "camera_audio_db": -12.2
+    },
+    {
+      "shot": 5,
+      "start": 5.618,
+      "end": 6.852,
+      "len": 1.233,
+      "frame": "/home/claude/t/frames/shot_05.jpg",
+      "camera_audio_db": -7.3
+    },
+    {
+      "shot": 6,
+      "start": 6.852,
+      "end": 7.063,
+      "len": 0.212,
+      "frame": "/home/claude/t/frames/shot_06.jpg",
+      "camera_audio_db": -8.5
+    }
+  ],
+  "contact_sheet": "/home/claude/t/contact_sheet.jpg",
+  "dense_sheet": "/home/claude/t/dense_sheet.jpg",
+  "brightness": "/home/claude/t/brightness.json",
+  "light_events": [
+    {
+      "t": 2.0167,
+      "kind": "dark",
+      "from": 126.2,
+      "to": 30.1
+    },
+    {
+      "t": 2.6517,
+      "kind": "recover",
+      "from": 29.4,
+      "to": 54.5
+    },
+    {
+      "t": 3.3183,
+      "kind": "recover",
+      "from": 53.6,
+      "to": 85.5
+    },
+    {
+      "t": 3.3517,
+      "kind": "flash",
+      "from": 85.5,
+      "to": 196.6
+    },
+    {
+      "t": 3.4517,
+      "kind": "flash",
+      "from": 172.0,
+      "to": 132.4
+    },
+    {
+      "t": 3.485,
+      "kind": "dark",
+      "from": 132.4,
+      "to": 15.9
+    },
+    {
+      "t": 3.585,
+      "kind": "recover",
+      "from": 15.0,
+      "to": 44.2
+    },
+    {
+      "t": 3.685,
+      "kind": "dark",
+      "from": 53.3,
+      "to": 23.6
+    },
+    {
+      "t": 3.785,
+      "kind": "recover",
+      "from": 14.7,
+      "to": 44.0
+    },
+    {
+      "t": 3.885,
+      "kind": "dark",
+      "from": 52.9,
+      "to": 23.8
+    },
+    {
+      "t": 3.985,
+      "kind": "recover",
+      "from": 14.7,
+      "to": 43.5
+    },
+    {
+      "t": 4.085,
+      "kind": "dark",
+      "from": 52.3,
+      "to": 22.9
+    },
+    {
+      "t": 4.185,
+      "kind": "recover",
+      "from": 14.7,
+      "to": 52.5
+    },
+    {
+      "t": 4.7517,
+      "kind": "recover",
+      "from": 50.3,
+      "to": 77.4
+    },
+    {
+      "t": 4.785,
+      "kind": "flash",
+      "from": 77.4,
+      "to": 187.0
+    },
+    {
+      "t": 4.885,
+      "kind": "flash",
+      "from": 180.6,
+      "to": 140.0
+    },
+    {
+      "t": 4.9183,
+      "kind": "dark",
+      "from": 140.0,
+      "to": 24.2
+    },
+    {
+      "t": 5.6183,
+      "kind": "recover",
+      "from": 12.0,
+      "to": 54.0
+    },
+    {
+      "t": 6.8517,
+      "kind": "dark",
+      "from": 54.5,
+      "to": 3.4
+    }
+  ]
+}

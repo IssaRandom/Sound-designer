@@ -1,0 +1,394 @@
+{
+ "title": "hiking_intro_wales_v3",
+ "duration": 7.063,
+ "fps": 60,
+ "target_lufs": -18,
+ "true_peak": -1.0,
+ "cues": [
+  {
+   "id": "hook-hit",
+   "layer": "impacts",
+   "src": "file:../platform_fog_hook/custom/hit_hook.wav",
+   "at": 0.0,
+   "gain_db": -8,
+   "loop": false,
+   "note": "hook: real thunder boom pitched down -9 st, transient + sub on frame 1"
+  },
+  {
+   "id": "fog",
+   "layer": "ambience",
+   "src": "file:../platform_fog_hook/custom/fog_push.wav",
+   "at": 0.0,
+   "gain_db": -19,
+   "loop": false,
+   "note": "underwater pressure under the wind: the push through the fog",
+   "end": 1.93,
+   "fade_out": 0.04
+  },
+  {
+   "id": "drone-a",
+   "layer": "pad",
+   "src": "file:../platform_fog_hook/custom/drone_air.wav",
+   "at": 0.0,
+   "gain_db": -17,
+   "loop": false,
+   "note": "drone from real wind sung through tuned combs (A, B-flat, E-flat)",
+   "end": 1.93,
+   "fade_out": 0.05
+  },
+  {
+   "id": "fog-part",
+   "layer": "transitions",
+   "src": "synth:whoosh",
+   "at": 1.35,
+   "gain_db": -18,
+   "params": {
+    "dur": 1.5,
+    "low": 100,
+    "high": 1200,
+    "pan_from": -0.3,
+    "pan_to": 0.3
+   },
+   "note": "glue: low air as the fog opens"
+  },
+  {
+   "id": "suck-reveal",
+   "layer": "transitions",
+   "src": "file:../platform_fog_hook/custom/suck_reveal.wav",
+   "at": 0.43,
+   "gain_db": -11,
+   "loop": false,
+   "note": "reversed real thunder tail, ends 5 frames before the reveal"
+  },
+  {
+   "id": "reveal-hit",
+   "layer": "impacts",
+   "src": "file:../platform_fog_hook/custom/hit_reveal.wav",
+   "at": 2.02,
+   "gain_db": -6,
+   "loop": false,
+   "note": "the big moment: fog cuts to the empty platform"
+  },
+  {
+   "id": "reveal-crackle",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle0.wav",
+   "at": 2.02,
+   "gain_db": -14,
+   "loop": false,
+   "note": "tube struggles on"
+  },
+  {
+   "id": "tube",
+   "layer": "ambience",
+   "src": "file:../platform_fog_hook/custom/tube.wav",
+   "at": 2.02,
+   "gain_db": -20,
+   "loop": false,
+   "note": "hero sound: 50 Hz tube, gated frame by frame to the light in the picture",
+   "end": 6.85,
+   "gate": {
+    "curve": "brightness.json",
+    "ref": 54,
+    "max": 1.6
+   }
+  },
+  {
+   "id": "room",
+   "layer": "ambience",
+   "src": "file:../platform_fog_hook/custom/station_room.wav",
+   "at": 1.9,
+   "gain_db": -22,
+   "loop": false,
+   "note": "J-cut: big dark station room tone from real brown noise and wind",
+   "end": 6.78,
+   "fade_in": 0.15,
+   "fade_out": 0.04
+  },
+  {
+   "id": "drone-b",
+   "layer": "pad",
+   "src": "file:../platform_fog_hook/custom/drone_air.wav",
+   "at": 2.02,
+   "gain_db": -23,
+   "loop": false,
+   "note": "real-air drone under the platform",
+   "offset": 3.0,
+   "end": 6.78,
+   "fade_out": 0.04
+  },
+  {
+   "id": "flick-1",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle1.wav",
+   "at": 2.2,
+   "gain_db": -19,
+   "loop": false,
+   "note": "flicker dip"
+  },
+  {
+   "id": "flick-2",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle2.wav",
+   "at": 2.4,
+   "gain_db": -20,
+   "loop": false,
+   "note": "flicker dip",
+   "pitch": 1
+  },
+  {
+   "id": "flick-3",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle3.wav",
+   "at": 2.6,
+   "gain_db": -18,
+   "loop": false,
+   "note": "flicker dip, lights settle"
+  },
+  {
+   "id": "suck-flash1",
+   "layer": "transitions",
+   "src": "file:../platform_fog_hook/custom/suck_flash.wav",
+   "at": 2.62,
+   "gain_db": -14,
+   "loop": false,
+   "note": "pull into the first white-out"
+  },
+  {
+   "id": "arc-1",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/arc0.wav",
+   "at": 3.32,
+   "gain_db": -8,
+   "loop": false,
+   "note": "electrical arc on the white flash (real rain sizzle in it)"
+  },
+  {
+   "id": "flash1-hit",
+   "layer": "impacts",
+   "src": "file:../platform_fog_hook/custom/hit_flash.wav",
+   "at": 3.36,
+   "gain_db": -10,
+   "loop": false,
+   "note": "hit on the first flash"
+  },
+  {
+   "id": "strobe-1",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle4.wav",
+   "at": 3.48,
+   "gain_db": -17,
+   "loop": false,
+   "note": "blackout strobe"
+  },
+  {
+   "id": "strobe-2",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle0.wav",
+   "at": 3.69,
+   "gain_db": -19,
+   "loop": false,
+   "note": "strobe",
+   "pitch": -1
+  },
+  {
+   "id": "strobe-3",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle2.wav",
+   "at": 3.88,
+   "gain_db": -18,
+   "loop": false,
+   "note": "strobe",
+   "pitch": 2
+  },
+  {
+   "id": "strobe-4",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle1.wav",
+   "at": 4.08,
+   "gain_db": -19,
+   "loop": false,
+   "note": "strobe, power returns"
+  },
+  {
+   "id": "arc-2",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/arc1.wav",
+   "at": 4.77,
+   "gain_db": -8,
+   "loop": false,
+   "note": "second, bigger arc"
+  },
+  {
+   "id": "flash2-swish",
+   "layer": "transitions",
+   "src": "synth:swish",
+   "at": 4.8,
+   "gain_db": -16,
+   "params": {
+    "dur": 0.4,
+    "pan_from": 0.5,
+    "pan_to": -0.5
+   },
+   "note": "glue: air on the flash"
+  },
+  {
+   "id": "flash2-hit",
+   "layer": "impacts",
+   "src": "file:../platform_fog_hook/custom/hit_flash.wav",
+   "at": 4.79,
+   "gain_db": -11,
+   "loop": false,
+   "note": "hit on the second flash, pitched down",
+   "pitch": -2
+  },
+  {
+   "id": "dim-1",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle3.wav",
+   "at": 4.97,
+   "gain_db": -18,
+   "loop": false,
+   "note": "dim flicker",
+   "pitch": -2
+  },
+  {
+   "id": "dim-2",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle1.wav",
+   "at": 5.17,
+   "gain_db": -19,
+   "loop": false,
+   "note": "dim flicker",
+   "pitch": 1
+  },
+  {
+   "id": "dim-3",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle4.wav",
+   "at": 5.37,
+   "gain_db": -19,
+   "loop": false,
+   "note": "dim flicker"
+  },
+  {
+   "id": "dim-4",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle2.wav",
+   "at": 5.57,
+   "gain_db": -18,
+   "loop": false,
+   "note": "dim flicker, last one",
+   "pitch": -1
+  },
+  {
+   "id": "suck-end",
+   "layer": "transitions",
+   "src": "file:../platform_fog_hook/custom/suck_end.wav",
+   "at": 5.4,
+   "gain_db": -12,
+   "loop": false,
+   "note": "reversed real thunder building into the blackout"
+  },
+  {
+   "id": "riser",
+   "layer": "transitions",
+   "src": "synth:riser",
+   "at": 6.8,
+   "gain_db": -18,
+   "params": {
+    "dur": 1.3,
+    "f0": 55,
+    "f1": 200,
+    "noise": 0.7,
+    "tone": 0.4
+   },
+   "note": "glue under the build"
+  },
+  {
+   "id": "screech",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/screech.wav",
+   "at": 5.5,
+   "gain_db": -15,
+   "loop": false,
+   "note": "distant rail screech bending up",
+   "end": 6.8
+  },
+  {
+   "id": "end-crackle",
+   "layer": "fx",
+   "src": "file:../platform_fog_hook/custom/crackle4.wav",
+   "at": 6.85,
+   "gain_db": -12,
+   "loop": false,
+   "note": "lights and tube die together",
+   "pitch": -3
+  },
+  {
+   "id": "end-hit",
+   "layer": "impacts",
+   "src": "file:../platform_fog_hook/custom/hit_end.wav",
+   "at": 6.85,
+   "gain_db": -5,
+   "loop": false,
+   "note": "final slam on the cut to black: real thunder body pitched -7 st"
+  },
+  {
+   "id": "hook-body",
+   "layer": "impacts",
+   "src": "file:../platform_fog_hook/custom/body_hook.wav",
+   "at": 0.0,
+   "gain_db": -9,
+   "loop": false,
+   "note": "mid-range body so the hit reads on a phone speaker"
+  },
+  {
+   "id": "reveal-body",
+   "layer": "impacts",
+   "src": "file:../platform_fog_hook/custom/body_reveal.wav",
+   "at": 2.02,
+   "gain_db": -7,
+   "loop": false,
+   "note": "mid-range body so the hit reads on a phone speaker"
+  },
+  {
+   "id": "end-body",
+   "layer": "impacts",
+   "src": "file:../platform_fog_hook/custom/body_end.wav",
+   "at": 6.85,
+   "gain_db": -6,
+   "loop": false,
+   "note": "mid-range body so the hit reads on a phone speaker"
+  },
+  {
+   "id": "mountain-wind",
+   "layer": "ambience",
+   "src": "file:custom/mountain_wind.wav",
+   "at": 0.0,
+   "gain_db": -11,
+   "end": 1.93,
+   "fade_out": 0.04,
+   "note": "Welsh mountain wind blowing through the fog from frame 1: real gust, hollow hill-pass moan"
+  },
+  {
+   "id": "rain",
+   "layer": "ambience",
+   "src": "file:custom/rain_canopy.wav",
+   "at": 1.9,
+   "gain_db": -25,
+   "end": 6.78,
+   "fade_in": 0.15,
+   "fade_out": 0.04,
+   "note": "rain on the station canopy: grey, wet Welsh weather around the platform"
+  },
+  {
+   "id": "gust-end",
+   "layer": "ambience",
+   "src": "file:custom/gust_end.wav",
+   "at": 6.85,
+   "gain_db": -9,
+   "note": "the mountains arrive: a real gust blasts in on the cut to black and carries into the hike (gust_end.wav runs 8 s to extend under the next shot)"
+  }
+ ]
+}
