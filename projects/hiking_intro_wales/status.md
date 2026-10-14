@@ -9,14 +9,14 @@ The station is where the journey starts, and the Welsh weather is already in the
 ## Changes from platform v2
 
 - **Removed:** both structural groans. They're a horror creature cue, the wrong story for a hike.
-- **Added:** `mountain_wind` (a real gust with a hollow hill-pass moan) under the fog; `rain_canopy` (real rain, high-passed, in the station's reverb); `gust_end` on the 6.85 slam, 8 s long.
+- **Added:** `mountain_wind` (a real gust with a hollow hill-pass moan) under the fog; `rain_canopy` (real rain, high-passed, in the station's reverb); `summit_wind` on the 6.85 slam: one continuous real take where the gust settles into exposed mountain-top wind (plus a thin ridge whistle).
 - **Fog push** is now under the wind at −19 dB, not leading.
 - **Target is −18 LUFS** (was −16), to leave room for music on a hiking reel.
 - **Kept:** the gated tube (the platform's hero sound), thunder hits, arcs, the screech (now heard as the train) and the silence gaps.
 
 ## Outputs (`out/`, git-ignored; rebuild below)
 
-`hiking_intro_wales_v3_sfx.wav` (−18.0 LUFS, −4.2 dBTP), `_preview.mp4`, `_stems.zip`, `_cues.md`, `_credits.txt`, and `_wind_handoff.wav`. The handoff is the rest of the end gust (about 10 s, level-matched, 1.5 s fade): place it at 00:07:04 to carry the wind under the first mountain shot.
+`hiking_intro_wales_v3_sfx.wav` (−18.0 LUFS, −4.2 dBTP), `_preview.mp4`, `_stems.zip`, `_cues.md`, `_credits.txt`, `_summit_wind.wav` and `_listen_with_summit.wav`. `_summit_wind.wav` carries on seamlessly from the reel's last sample: 13.8 s, level-matched, with a 3 s fade. Place it at 00:07:04 under the mountain-top shot and trim it to the shot. `_listen_with_summit.wav` is the intro and the summit wind joined, for listening only.
 
 ## Rebuild
 
@@ -41,6 +41,6 @@ The fluorescent tube, the rail screech core and the arcs are still synthesised. 
 
 ## Open questions
 
-- What is the first shot after the cut to black? The gust lands on it. If the next shot is calm, shorten `gust_end` or fade the handoff faster.
+- **Decided:** after the black comes a mountain-top shot with wind noise, then the main video. If that shot has its own phone wind noise (mic buffeting), turn the camera audio down by about 12 dB or mute it, and high-pass it at 150 Hz. Let `_summit_wind.wav` carry the shot.
 - Music: what BPM, and where does it come in? The reveal (2.02) and the slam (6.85) should land on downbeats.
 - Voiceover over the intro?

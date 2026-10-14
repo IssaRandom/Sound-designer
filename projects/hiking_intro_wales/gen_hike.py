@@ -45,11 +45,15 @@ r = hp(rec('storm', 64, 6.0), 900)
 r = lp(r, 9000)
 save('rain_canopy', S.reverb(S.norm(r, .8), 2.8, .45), ['storm'])
 
-# 3. Wind arrives at the cut to black: the strongest gust (8-10 s) hits on the slam and
-#    keeps blowing for 8 s, so it can be extended under the first mountain shot.
-g = rec('wind', 7.6, 8.4)
-g = peak(lp(hp(g, 35), 5000), 420, 5, 1.0)
-t = np.arange(len(g)) / SR
-env = np.minimum(1, t / .06)[:, None] * (0.75 + 0.25 * np.exp(-t / 1.5))[:, None]
-save('gust_end', S.reverb(S.norm(g * env, .9), 2.0, .2), ['wind'])
+# 3. Summit wind: the strongest real gust (8-10 s in the recording) hits on the cut to black,
+#    then the same continuous take settles into exposed mountain-top wind for 14 s, to run
+#    under the summit shot. One unspliced take, so the reel and the handoff join seamlessly.
+#    A thin whistle (the same wind, resonant at 1.8 kHz) gives the ridge edge on a phone.
+g = rec('wind', 7.6, 14.5)
+body = peak(lp(hp(g, 35), 5000), 420, 5, 1.0)
+whistle = signal.lfilter(*signal.iirpeak(1800, 14, fs=SR), bp(g, 1200, 3000), axis=0)
+x = S.norm(body, .9) + S.norm(whistle, .9) * .18
+t = np.arange(len(x)) / SR
+env = np.minimum(1, t / .06) * (0.75 + 0.25 * np.exp(-t / 1.5))
+save('summit_wind', S.reverb(S.norm(x * env[:, None], .9), 2.0, .2), ['wind'])
 print('ok')

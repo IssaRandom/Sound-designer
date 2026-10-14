@@ -383,12 +383,12 @@
    "note": "rain on the station canopy: grey, wet Welsh weather around the platform"
   },
   {
-   "id": "gust-end",
+   "id": "summit-wind",
    "layer": "ambience",
-   "src": "file:custom/gust_end.wav",
+   "src": "file:custom/summit_wind.wav",
    "at": 6.85,
    "gain_db": -9,
-   "note": "the mountains arrive: a real gust blasts in on the cut to black and carries into the hike (gust_end.wav runs 8 s to extend under the next shot)"
+   "note": "the mountains arrive: a real gust blasts in on the cut to black and settles into summit wind; it carries on under the mountain-top shot (wind handoff file)"
   }
  ]
 }
